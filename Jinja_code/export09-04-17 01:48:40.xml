@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<userstore>
+	 
+	
+	<user id="X999_Y999">
+    <from>
+		<name>"Tom Brady"</name>
+		<id>"X12"</id>
+    </from>
+    <message>"Looking forward to 2010!</message>
+    <actions>
+		
+		<name>"Comment"</name>
+		<link>"http://www.facebook.com/X999/posts/Y999"</link>
+		
+		<name>"Like"</name>
+		<link>"http://www.facebook.com/X999/posts/Y999"</link>
+		
+    </actions>
+    <type>"status"</type>
+    <created-time>"2010-08-02T21:27:44+0000"</created-time>
+    <updated-time>"2010-08-02T21:27:44+0000"</updated-time>
+  </user>
+   
+	
+	<user id="X998_Y998">
+    <from>
+		<name>"Peyton Manning"</name>
+		<id>"X18"</id>
+    </from>
+    <message>"Where's my contract?</message>
+    <actions>
+		
+		<name>"Comment"</name>
+		<link>"http://www.facebook.com/X998/posts/Y998"</link>
+		
+		<name>"Like"</name>
+		<link>"http://www.facebook.com/X998/posts/Y998"</link>
+		
+    </actions>
+    <type>"status"</type>
+    <created-time>"2010-08-02T21:27:44+0000"</created-time>
+    <updated-time>"2010-08-02T21:27:44+0000"</updated-time>
+  </user>
+  
+</userstore>

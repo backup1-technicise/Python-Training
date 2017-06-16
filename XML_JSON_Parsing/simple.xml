@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bookstore>
+  <!--Bookstrore with web technology books-->
+  <book category="web">
+    <title lang="en">XQuery Kick Start</title>
+    <author>James McGovern</author>
+    <year>2003</year>
+    <price>49.99</price>
+  </book>
+</bookstore>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Insurance xmlns="http://indivo.org/vocab/xml/documents#">
+ 
+	<'guarantor_name_given'>Amanda</'guarantor_name_given'>  
+ 
+	<'insurance_tel_number'>888-515-1494</'insurance_tel_number'>  
+ 
+	<'suffix'>03</'suffix'>  
+ 
+	<'id_number'>#YBP09K063242</'id_number'>  
+ 
+	<'insured_name_family'>Dang</'insured_name_family'>  
+ 
+	<'insured_name_given'>Dao</'insured_name_given'>  
+ 
+	<'guarantor_name_family'>Dang</'guarantor_name_family'>  
+ 
+	<'insurance_name'>Aetna</'insurance_name'>  
+ 
+	<'group_id'>16379000</'group_id'>  
+ 
+	<'insurance_types'>health</'insurance_types'>  
+
+</Insurance>
+

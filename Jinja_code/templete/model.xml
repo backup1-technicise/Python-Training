@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
+	<Model name="{{Model_name}}">
+    {% for key, value in Model_Object_list.items() %}    
+        <Field name="{{key}}">{{value}}</Field>         
+    {% endfor %}
+    </Model>
+</Models>

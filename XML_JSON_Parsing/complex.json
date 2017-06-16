@@ -1,0 +1,51 @@
+{
+    "bookstore": {
+        "book": [
+            {
+                "@category": "Web technology",
+                "author": [
+                    "James McGovern",
+                    {
+                        "country": "UK",
+                        "firstname": "Bothner",
+                        "lastname": "Per"
+                    }
+                ],
+                "price": "49.99",
+                "title": {
+                    "#text": "XQuery Kick Start",
+                    "@lang": "en"
+                },
+                "year": "2003"
+            },
+            {
+                "@category": "children",
+                "author": {
+                    "country": "USA",
+                    "firstname": "J K.",
+                    "lastname": "Rowling"
+                },
+                "price": "29.99",
+                "title": {
+                    "#text": "Harry Potter",
+                    "@lang": "en"
+                },
+                "year": "2005"
+            },
+            {
+                "@category": "cooking",
+                "author": {
+                    "country": "UK",
+                    "firstname": "Giada De",
+                    "lastname": "Laurentiis"
+                },
+                "price": "30.00",
+                "title": {
+                    "#text": "Everyday Italian",
+                    "@lang": "en"
+                },
+                "year": "2005"
+            }
+        ]
+    }
+}

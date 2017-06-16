@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bookstore>
+  <book category="Web technology">
+    <title lang="en">XQuery Kick Start</title>
+    <author>James McGovern</author>
+    <author>
+      <firstname>Bothner</firstname>
+      <lastname>Per</lastname>
+      <country>UK</country>
+    </author>
+    <year>2003</year>
+    <price>49.99</price>
+  </book>
+  <book category="children">
+    <title lang="en">Harry Potter</title>
+    <author>
+		<firstname>J K.</firstname>
+		<lastname>Rowling</lastname>
+		<country>USA</country>
+    </author>
+    <year>2005</year>
+    <price>29.99</price>
+  </book>
+  <book category="cooking">
+    <title lang="en">Everyday Italian</title>
+    <author>
+		<firstname>Giada De</firstname>
+		<lastname>Laurentiis</lastname>
+		<country>UK</country>
+    </author>
+    <year>2005</year>
+    <price>30.00</price>
+  </book>
+</bookstore>

@@ -1,0 +1,10 @@
+{
+"__modelname__": "Issues",
+"startDate": "2009-05-16T12:00:00Z",
+"endDate": "2009-05-16T16:00:00Z",
+"name_title": "Backache (finding)",
+"name_system": "http://bioportal.bioontology.org/ontologies/SNOMEDCT/",
+"name_identifier": "161891005",
+"provider_fullname":"Yo Sengupta",
+"provider_npi":"1376627745"
+}

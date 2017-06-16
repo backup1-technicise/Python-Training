@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
+{% if model_name != ''%} {# Check whether a field (model_name) is defined in json file or not #}
+    <Model name="{{model_name}}"> {# Print value of model_name in output xml file #}
+	{% for element in template_XML_dict %} {# Process other fields in json file #}
+	<Field name='{{ element }}'>{{ template_XML_dict[element] }}</Field> {# Create different sub-elements under a model with different field values from json #} 
+    	{% endfor %}
+    </Model>
+</Models>
+{% endif %}

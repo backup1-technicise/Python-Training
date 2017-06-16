@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bookstore>
+  <book category="web">
+    <title lang="en">Xquery Kick start</title>
+    <author>gfjgfjgjr</author>
+    <author>
+      <firstname>ABC</firstname>
+      <lastname>XYZ</lastname>
+      <country>India</country>
+    </author>
+    <year>2003</year>
+    <price>123.90</price>
+  </book>
+  <book category="web" cover="paperback">
+    <title lang="en">Learning XML</title>
+    <author>PORS</author>
+    <year>2005</year>
+    <price>278.90</price>
+  </book>
+</bookstore>

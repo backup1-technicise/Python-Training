@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
+ 
+    <Model name="Immunization"> 
+	 
+	<Field name='product_name_title'>Adenovirus, type 4 and type 7, live, oral</Field>  
+    	 
+	<Field name='provider_fullname'>MR. JOHN T DAVIS, OD</Field>  
+    	 
+	<Field name='product_name_identifier'>143</Field>  
+    	 
+	<Field name='product_name_system'>http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=vg#</Field>  
+    	 
+	<Field name='date'>1970-01-01</Field>  
+    	 
+	<Field name='provider_npi'>1891861894</Field>  
+    	
+    </Model>
+</Models>

@@ -1,0 +1,9 @@
+{
+"__modelname__": "FamilyHistory",
+"problem_title": "Diabetes Type 1",
+"problem_system": "http://bioportal.bioontology.org/ontologies/SNOMEDCT/",
+"problem_identifier": "39579001",
+"relationship": "Father",
+"age_at_diagnosis": "56",
+"current_age_or_age_of_death": "78"
+}

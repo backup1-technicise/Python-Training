@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
+
+    <Model name="Issues">
+	
+	<Field name='startDate'>2009-05-16T12:00:00Z</Field>
+    	
+	<Field name='name_identifier'>161891005</Field>
+    	
+	<Field name='name_system'>http://bioportal.bioontology.org/ontologies/SNOMEDCT/</Field>
+    	
+	<Field name='provider_fullname'>Yo Sengupta</Field>
+    	
+	<Field name='name_title'>Backache (finding)</Field>
+    	
+	<Field name='__modelname__'>Issues</Field>
+    	
+	<Field name='endDate'>2009-05-16T16:00:00Z</Field>
+    	
+	<Field name='provider_npi'>1376627745</Field>
+    	
+    </Model>
+</Models>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Insurance xmlns="http://indivo.org/vocab/xml/documents#">
+{% for element in template_XML_dict %} {# Process other fields in json file #}
+	<'{{ element }}'>{{ template_XML_dict[element] }}</'{{ element }}'> {# Create different sub-elements under a model with different field values from json #} 
+{% endfor %}
+</Insurance>
+
+

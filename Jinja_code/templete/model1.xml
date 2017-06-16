@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
+    <Model name="{{json_dict['__modelname__']}}">
+    	<Field name='provider_npi'>{{ json_dict['provider_npi'] }}</Field>
+    	<Field name='provider_first_name'>{{ json_dict['provider_first_name'] }}</Field>
+    	<Field name='provider_last_name'>{{ json_dict['provider_last_name'] }}</Field>
+    	<Field name="'provider_type'">{{ json_dict['provider_type'] }}</Field>
+    </Model>
+</Models>

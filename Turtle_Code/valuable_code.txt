@@ -1,0 +1,43 @@
+
+            # Drawing a Circle using multiple rectangles 
+    turtle_pen.shape("turtle")     # Set the turtle shape as 'classic'
+    turtle_pen.speed(2)             # Set the turtle movement as 'Average' animation
+    turtle_pen.color("blue", "blue") # Set the turtle color as 'blue' and pen color as 'blue'
+    max_rotation = 360
+    initial_rotation = 0
+    while initial_rotation <= max_rotation:
+        turtle_pen.right(initial_rotation)            # Rotation of turtle with degree (initial_rotation) from current position
+        #for side in range(4):            # 4 sides of a rectangle
+        turtle_pen.forward(50)     # Movement of turtle 100 units towards front
+        turtle_pen.right(90)        # Rotation of turtle 90 degree from current position
+        turtle_pen.forward(2)
+        turtle_pen.right(90.04)
+        turtle_pen.forward(50.04)
+        #turtle_pen.left(90.04)
+        #turtle_pen.forward(2)
+        initial_rotation += 5       # Increase the value of initial_rotation by 5 deg at each step. 
+
+# Flower
+# To the draw leaves of flower
+    turtle_pen_flower.color("green", "blue") # Set the turtle color as 'blue' and pen color as 'green'
+    turtle_pen_flower.right(90)
+    turtle_pen_flower.forward(200)
+    turtle_pen_flower.left(90)
+    turtle_pen_flower.forward(100)                 # Movement of turtle 100 units towards front
+    turtle_pen_flower.left(40)
+    turtle_pen_flower.forward(100)                 # Movement of turtle 100 units towards front
+    turtle_pen_flower.left(140)
+    turtle_pen_flower.forward(100)                 # Movement of turtle 100 units towards front
+    turtle_pen_flower.left(40)
+    turtle_pen_flower.forward(100)
+
+    turtle_pen_flower.right(40)
+    turtle_pen_flower.forward(100)                 # Movement of turtle 100 units towards front
+    turtle_pen_flower.right(40)
+    turtle_pen_flower.forward(100)                 # Movement of turtle 100 units towards front
+    turtle_pen_flower.right(140)
+    turtle_pen_flower.forward(100)                 # Movement of turtle 100 units towards front
+    turtle_pen_flower.right(40)
+    turtle_pen_flower.forward(100)
+
+http://ip35960248.ahcdn.com/key=E9XaHxRXsF8tMMNA6xQfVg,end=1476730769,limit=3/data=43.231.242.188/state=K+fy/buffer=1250000:750448,849.5/speed=250000/reftag=5412162/ssd1/21/6/29348106/5610180_480p.mp4

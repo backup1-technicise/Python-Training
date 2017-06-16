@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
+
+    <Model name="">
+	
+	<Field name='relationship'>Father</Field>
+    	
+	<Field name='problem_identifier'>39579001</Field>
+    	
+	<Field name='age_at_diagnosis'>56</Field>
+    	
+	<Field name='problem_title'>Diabetes Type 1</Field>
+    	
+	<Field name='problem_system'>http://bioportal.bioontology.org/ontologies/SNOMEDCT/</Field>
+    	
+	<Field name='current_age_or_age_of_death'>78</Field>
+    	
+    </Model>
+</Models>

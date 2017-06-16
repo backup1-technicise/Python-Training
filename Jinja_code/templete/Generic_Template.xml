@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
+{% if json_dict['__modelname__'] == 'FamilyHistory' %}
+    <Model name="{{json_dict['__modelname__']}}">
+    	<Field name='relationship'>{{ json_dict['relationship'] }}</Field>
+    	<Field name='problem_identifier'>{{ json_dict['problem_identifier'] }}</Field>
+    	<Field name='age_at_diagnosis'>{{ json_dict['age_at_diagnosis'] }}</Field>
+    	<Field name='problem_title'>{{ json_dict['problem_title'] }}</Field>
+	<Field name='problem_system'>{{ json_dict['problem_system'] }}</Field>
+	<Field name='current_age_or_age_of_death'>{{ json_dict['current_age_or_age_of_death'] }}</Field>
+    </Model>
+</Models>
+{% endif %}
+{% if json_dict['__modelname__'] == 'Immunization' %}
+    <Model name="{{json_dict['__modelname__']}}">
+    	<Field name='product_name_title'>{{ json_dict['product_name_title'] }}</Field>
+    	<Field name='provider_fullname'>{{ json_dict['provider_fullname'] }}</Field>
+    	<Field name='product_name_identifier'>{{ json_dict['product_name_identifier'] }}</Field>
+    	<Field name='product_name_system'>{{ json_dict['product_name_system'] }}</Field>
+	<Field name='date'>{{ json_dict['date'] }}</Field>
+	<Field name='provider_npi'>{{ json_dict['provider_npi'] }}</Field>
+    </Model>
+</Models>
+{% endif %}
+{% if json_dict['__modelname__'] == 'Issues' %}
+    <Model name="{{json_dict['__modelname__']}}">
+    	<Field name='startDate'>{{ json_dict['startDate'] }}</Field>
+    	<Field name='name_identifier'>{{ json_dict['name_identifier'] }}</Field>
+    	<Field name='name_system'>{{ json_dict['name_system'] }}</Field>
+    	<Field name='provider_fullname'>{{ json_dict['provider_fullname'] }}</Field>
+	<Field name='name_title'>{{ json_dict['name_title'] }}</Field>
+	<Field name='endDate'>{{ json_dict['endDate'] }}</Field>
+	<Field name='provider_npi'>{{ json_dict['provider_npi'] }}</Field>
+    </Model>
+</Models>
+{% endif %}

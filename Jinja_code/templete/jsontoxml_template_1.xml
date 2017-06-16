@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<userstore>
+	{% for element in user_entry %} {# Process each field in dictionary element  #}
+	{%set element_dict = element%}
+	<user id="{{element_dict["id"]}}">
+    <from>
+		<name>"{{element_dict["from"]["name"]}}"</name>
+		<id>"{{element_dict["from"]["id"]}}"</id>
+    </from>
+    <message>"{{element_dict["message"]}}</message>
+    <actions>
+		{%for element1 in element_dict["actions"]%}
+		<name>"{{element1["name"]}}"</name>
+		<link>"{{element1["link"]}}"</link>
+		{%endfor%}
+    </actions>
+    <type>"{{element_dict["type"]}}"</type>
+    <created-time>"{{element_dict["created_time"]}}"</created-time>
+    <updated-time>"{{element_dict["updated_time"]}}"</updated-time>
+  </user>
+  {% endfor %}
+</userstore>
+
